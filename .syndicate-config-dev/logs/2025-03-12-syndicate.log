@@ -1,0 +1,12 @@
+2025-03-12 13:47:02,181 [INFO] USER:anand_yadav s3_resource.py:40:validate_bucket_name LOG: Starting validating bucket name 'syndicate-education-platform-custom-sandbox-artifacts-6675'
+2025-03-12 13:47:02,181 [INFO] USER:anand_yadav s3_resource.py:73:validate_bucket_name LOG: Finished validating bucket name 'syndicate-education-platform-custom-sandbox-artifacts-6675'
+2025-03-12 13:47:02,181 [INFO] USER:anand_yadav helper.py:525:convert LOG: Stripping run_id:JAP-11,run_type:stm,type:user,user_id:aafb0190 from "," a bit..
+2025-03-12 13:47:02,181 [INFO] USER:anand_yadav helper.py:529:convert LOG: Converting: run_id:JAP-11,run_type:stm,type:user,user_id:aafb0190 to dict..
+2025-03-12 13:47:02,184 [INFO] USER:anand_yadav helper.py:541:convert LOG: Converted to such a dict: {'run_id': 'JAP-11', 'run_type': 'stm', 'type': 'user', 'user_id': 'aafb0190'}
+2025-03-12 13:47:04,250 [WARNING] USER:anand_yadav generator.py:76:generate_configuration_files LOG: The config_path property is not specified. The working directory is used
+2025-03-12 13:47:04,250 [WARNING] USER:anand_yadav generator.py:93:generate_configuration_files LOG: The "project_path" property is not specified. The working directory will be used as a project path. To change the path, edit the syndicate.yml by path C:\Users\anand_yadav\AWS\task04\.syndicate-config-dev
+2025-03-12 13:47:04,255 [INFO] USER:anand_yadav generator.py:155:generate_configuration_files LOG: Syndicate initialization has been completed. 
+Set SDCT_CONF:
+Unix: export SDCT_CONF="C:\Users\anand_yadav\AWS\task04\.syndicate-config-dev"
+Windows: setx SDCT_CONF C:\Users\anand_yadav\AWS\task04\.syndicate-config-dev
+2025-03-12 13:47:04,256 [INFO] USER:anand_yadav helper.py:330:timed LOG: Stage config, elapsed time: 0:00:02.071970
